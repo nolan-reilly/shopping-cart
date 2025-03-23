@@ -38,13 +38,34 @@
 }
 
 .flex-col {
-  flex-direction: col;
+  flex-direction: column;
 }
 
 .justify-end {
   justify-content: end;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .gap-16 {
   gap: 16px;
+}
+
+.card {
+  border: 1px black solid;
+}
+
+.border-radius {
+  border-radius: 4px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.p-8 {
+  padding: 8px;
 }
