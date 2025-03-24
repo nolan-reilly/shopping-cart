@@ -8,7 +8,7 @@ export default function Navbar() {
           Home
         </Link>
         <Link className="nav-link" to="/cart">
-          Shopping Cart
+          Shop
         </Link>
       </div>
     </div>

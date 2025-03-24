@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./Homepage";
-import ShoppingCart from "./ShoppingCart";
+import ShoppingPage from "./ShoppingPage";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <ShoppingCart />,
+    element: <ShoppingPage />,
   },
 ]);
 
